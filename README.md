@@ -1,13 +1,13 @@
-<h1 align="center">API</h1>
+# <p align="center"><b>API</b></p>
 
 **Esse é um código que usa o Express para criar rotas para um servidor web. Ele usa o MongoDB para armazenar informações sobre cidades e clientes. Vamos agora analisar o código em detalhes!**
 
 As primeiras linhas do código importam as bibliotecas necessárias e definem algumas variáveis. 
 
-*A linha 1 importa o Express.
-A linha 2 importa o ObjectId do MongoDB. 
-A linha 3 cria uma instância do Express.
-A linha 4 define a porta em que o servidor será executado. 
+*A linha 1 importa o Express.  <br /> 
+A linha 2 importa o ObjectId do MongoDB.  <br /> 
+A linha 3 cria uma instância do Express. <br /> 
+A linha 4 define a porta em que o servidor será executado.  <br /> 
 A linha 5 declara uma variável global para armazenar a conexão com o banco de dados MongoDB.*
 
  - app.use(express.json()) ... Esta linha diz ao Express para usar o
